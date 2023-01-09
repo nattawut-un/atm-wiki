@@ -1,0 +1,23 @@
+input: .
+output: .retype
+url: # Add your website address here
+branding:
+  title: Another Thai Mappers # /static/file.svg
+  label: Docs
+  colors:
+    label:
+      text: "#ff5f5f"
+      background: "#ffebeb"
+links:
+- text: Discord
+  link: https://retype.com/guides/getting-started/
+  icon: comment-discussion
+footer:
+  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+  links:
+    - text: About
+      link: about.md
+      icon: question
+    - text: License
+      link: license.md
+      icon: shield-check
