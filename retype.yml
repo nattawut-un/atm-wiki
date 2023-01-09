@@ -3,6 +3,7 @@ output: .retype
 url: # Add your website address here
 branding:
   title: Another Thai Mappers # /static/file.svg
+  logo: static/favicon.png
   label: Docs
   colors:
     label:
@@ -12,6 +13,7 @@ links:
 - text: Discord
   link: https://retype.com/guides/getting-started/
   icon: comment-discussion
+favicon: static/favicon.png
 footer:
   copyright: "&copy; Copyright {{ year }}. All rights reserved."
   links:

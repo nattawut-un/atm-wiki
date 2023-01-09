@@ -5,7 +5,11 @@ icon: home
 # ยินดีต้อนรับ
 เราได้จัดทำเอกสารเหล่านี้ขึ้นมา เพื่อให้แมปเปอร์หน้าใหม่ๆ ในไทยได้อะไรสักอย่างแหละ กูก็ไม่รู้เหมือนกันกัน ตอนนี้คิดอะไรไม่ออก เดี๋ยวมาเขียนต่อนะจ๊ะ
 
-![](https://cdn.discordapp.com/attachments/531833851375386634/1061735180840206360/image.png)
+![rye extension](https://cdn.discordapp.com/attachments/531833851375386634/1061735180840206360/image.png)
+
+!!!danger ฉันตาย
+ฉันตาย
+!!!
 
 ## หัวข้อ 1
 Officia esse consectetur irure qui aliqua elit sint. Aute eu dolor eu commodo duis nulla. Commodo incididunt proident esse magna culpa commodo magna id anim. Adipisicing occaecat duis veniam sit aliqua esse.
