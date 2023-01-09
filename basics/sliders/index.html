@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.726576064744">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.726594623401">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -33,11 +33,11 @@
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.png" rel="icon" />
-    <link href="../../resources/css/retype.css?v=2.4.0.726576064744" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.726594623401" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.726576064744" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.726594623401" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.726576064744" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.726594623401" data-turbo-eval="false" defer></script>
 
     <meta property="og:type" content="website">
     <!-- <meta property="og:title" content="ATT // Another Thailand Tournament" /> -->
@@ -237,17 +237,19 @@
     <figcaption class="caption">bocchi extension</figcaption>
 </figure>
 </p>
-<p><figure class="content-right">
-    <img src="https://cdn.discordapp.com/attachments/531833851375386634/1061951050044690472/image.png" alt="" />
-    <figcaption class="caption caption-float"></figcaption>
-</figure>
-</p>
+<hr />
 <doc-anchor-target id="sliders" class="break-words">
     <h1>
         <doc-anchor-trigger class="header-anchor-trigger" to="#sliders">#</doc-anchor-trigger>
         <span>Sliders</span>
     </h1>
 </doc-anchor-target>
+<p>สไลเดอร์ เป็นหนึ่งในประเภทโน้ตที่เราจะได้พบเจอกันบ่อยๆ ในแมพต่างๆ โดยเฉพาะแมพที่มีการใช้สไลเดอร์มาก หรือที่เรียกกันว่า &quot;tech maps&quot;</p>
+<div><p><figure class="content-right">
+    <img src="https://cdn.discordapp.com/attachments/531833851375386634/1061951050044690472/image.png" alt="" />
+    <figcaption class="caption caption-float"></figcaption>
+</figure>
+</p>
 <doc-anchor-target id="slider-คออะไร">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#slider-คออะไร">#</doc-anchor-trigger>
@@ -255,15 +257,35 @@
     </h2>
 </doc-anchor-target>
 <ul>
-<li>กูไม่รู้</li>
-<li>กูไม่รู้</li>
-<li>กูไม่รู้</li>
+<li>โน้ตที่ผู้เล่นจะต้องกดค้าง และเลื่อนเมาส์ไปตามทางชองสไลเดอร์</li>
+<li>ประกอบไปด้วย
+<ul>
+<li>slider head</li>
+<li>slider body</li>
+<li>slider tail</li>
 </ul>
-<doc-anchor-target id="slider">
+</li>
+<li>ปรับความเร็วได้ ด้วย Base SV หรือ timing point เขียว</li>
+</ul>
+</div>
+<div><p><figure class="content-right">
+    <img src="https://cdn.discordapp.com/attachments/1055806798101233777/1061977346736930836/image.png" alt="" />
+    <figcaption class="caption caption-float"></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="slider-head">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#slider">#</doc-anchor-trigger>
-        <span>Slider</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#slider-head">#</doc-anchor-trigger>
+        <span>Slider Head</span>
     </h3>
+</doc-anchor-target>
+<p>ส่วนหัวของสไลเดอร์ที่ผู้เล่นจะต้องกดเป็นจุดเริ่มต้นของสไลเดอร์ ส่วนนี้จะแตกต่างไปจากการกดวงกลมปกติ เนื่องจากใน scorev1 นั้น หากเรากดก่อนเวลาของสไลเดอร์ (ภายในช่วงเวลาของ 50 คะแนน) แล้วเก็บ slider tick ทั้งหมดและ slider end ได้ เราก็จะได้ 300 โดยไม่สนว่าเราจะกดก่อนจังหวะมากเท่าไหร่</p>
+</div>
+<doc-anchor-target id="การวางแบบตางๆ">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#การวางแบบตางๆ">#</doc-anchor-trigger>
+        <span>การวางแบบต่างๆ</span>
+    </h2>
 </doc-anchor-target>
 
                                 
