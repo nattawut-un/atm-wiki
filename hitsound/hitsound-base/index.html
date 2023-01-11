@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.726719325958">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.726771144878">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -21,23 +21,23 @@
     <meta property="og:url" content="/hitsound/hitsound-base/">
     <meta property="og:title" content="พื้นฐาน">
     <meta property="og:description" content="ในหัวข้อพื้นฐานนี้เราจะมาปูพื้นฐานกันก่อนว่า Hitsound นั้นทำอะไรได้บ้างและมีความสำคัญอย่างไร">
-    <meta property="og:image" content="/hitsound/sex/sex.png">
+    <meta property="og:image" content="https://media.discordapp.net/attachments/1061640726267580486/1062440763759280169/image.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="/hitsound/hitsound-base/">
     <meta property="twitter:title" content="พื้นฐาน">
     <meta property="twitter:description" content="ในหัวข้อพื้นฐานนี้เราจะมาปูพื้นฐานกันก่อนว่า Hitsound นั้นทำอะไรได้บ้างและมีความสำคัญอย่างไร">
-    <meta property="twitter:image" content="/hitsound/sex/sex.png">
+    <meta property="twitter:image" content="https://media.discordapp.net/attachments/1061640726267580486/1062440763759280169/image.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.png" rel="icon" />
-    <link href="../../resources/css/retype.css?v=2.4.0.726719325958" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.726771144878" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.726719325958" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.726771144878" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.726719325958" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.726771144878" data-turbo-eval="false" defer></script>
 
     <meta property="og:type" content="website">
     <!-- <meta property="og:title" content="ATT // Another Thailand Tournament" /> -->
@@ -235,16 +235,38 @@
         <span>ส่วนประกอบของ Hitsound</span>
     </h2>
 </doc-anchor-target>
-<p>การทำ Hitsound นั้นมีหลายอย่างที่ต้องทำความเข้าใจ Sampleset, addition, Filenamed, Volume แต่ละอย่างจะมีแต่ละส่วนที่ต้องเข้าใจดังนี้</p>
-<doc-anchor-target id="filenamed">
+<p>การทำ Hitsound นั้นมีหลายอย่างที่ต้องทำความเข้าใจ Sample, Sampleset, Addition, Filenamed, Volume แต่ละอย่างจะมีแต่ละส่วนที่ต้องเข้าใจดังนี้</p>
+<doc-anchor-target id="sample">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#filenamed">#</doc-anchor-trigger>
-        <span>Filenamed</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#sample">#</doc-anchor-trigger>
+        <span>Sample</span>
     </h3>
 </doc-anchor-target>
-<p>การตั้งชื่อไฟล์หรือ <doc-anchor-trigger to="#Sample">Sample</doc-anchor-trigger> นั้นส่วนใหญ่จะเป็นวิธีการตั้งชื่อไฟล์จากนอกเกมเพื่อนำไปใช้ในเกมเสียมากกว่า แต่ละเสียงจะมีหมวดหมู่ที่<em>ค้อนข่าง</em>ตายตัวอยู่(จะไปพูดเนื้อหาส่วนนี้อีกในส่วน <a href="../hitsound-basic/">เบื้องต้น</a>) รูปแบบการตั้งชื่อนั้นก็เป็นการตั้งชื่อไฟล์ในรูปแบบที่ตายตัวด้วยเช่นกัน (ในที่นี้จะหมายถึงการคั้งชื่อไฟล์เผื่อนำไปใช้ในโหมด Standard เท่านั้น) จะมีรูปแบบดังนี้</p>
+<p>คือการนำเสียงต่างๆ มาใส่ใน osu! เพื่อจะนำไปใช้ใน Hitsound ส่วนใหญ่จะใส่กันเพราะว่าหลายๆครั้งการที่จะนำเสียง Hitsound ที่ osu! มีอยู่แล้วนั้นอาจจะยากในการใส่ให้เข้ากับเพลงนั้นๆ</p>
+<doc-anchor-target id="addition">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#addition">#</doc-anchor-trigger>
+        <span>addition</span>
+    </h3>
+</doc-anchor-target>
+<p>Addition หมายถึงการเพิ่มจังหวะให้หลากหลายไม่น่าเบื่อมี เสียงนำจังหวะ มีเสียงคอยเพิ่มสีสัน มีเสียงคอยทำให้รู้ว่าจบ 1 ท่อน ทุกอย่างเป็นส่วนประกอบเพื่อทำให้ Hitsound นั้นฟังไม่น่าเบื่อ</p>
+<doc-anchor-target id="volume">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#volume">#</doc-anchor-trigger>
+        <span>Volume</span>
+    </h3>
+</doc-anchor-target>
+<p>ถ้าเสียงตอนเริ่มเพลงดังเท่ากันกับเสียงของท่อน Kiai มันก็คงแปลกๆ และนี้คือหน้าที่ส่วนของ Volume ที่จะสามารถ  เพิ่ม-ลดเสียงของ Hitsound ให้เข้ากับช่วงของเพลงได้ ส่วนใหญ่จะใช้เพื่อทำให้เสียงของ Hitsound มีมิติมากขึ้น
+<em>&quot;ท่อนนี้เสียงควรจะเบากว่าท่อนนี ท่อนนี้ให้อารมณ์ที่หนักกว่าท่่อนนี้ก็ควรจะเพิ่มเสียงนะ&quot;</em> อะไรทำนองนี้</p>
+<doc-anchor-target id="filename">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#filename">#</doc-anchor-trigger>
+        <span>Filename</span>
+    </h3>
+</doc-anchor-target>
+<p>การตั้งชื่อไฟล์หรือ <doc-anchor-trigger to="#Sample">Sample</doc-anchor-trigger> นั้นส่วนใหญ่จะเป็นวิธีการตั้งชื่อไฟล์จากนอกเกมเพื่อนำไปใช้ในเกมเสียมากกว่า แต่ละเสียงจะมีหมวดหมู่ที่<em>ค่อนข้าง</em>ตายตัวอยู่(จะไปพูดเนื้อหาส่วนนี้อีกในส่วน <a href="../hitsound-basic/">เบื้องต้น</a>) รูปแบบการตั้งชื่อนั้นก็เป็นการตั้งชื่อไฟล์ในรูปแบบที่ตายตัวด้วยเช่นกัน (ในที่นี้จะหมายถึงการตั้งชื่อไฟล์เผื่อนำไปใช้ในโหมด Standard เท่านั้น) จะมีรูปแบบดังนี้</p>
 <div><p><figure class="content-right">
-    <img src="../sex/sex.png" alt="" title="sex" />
+    <img src="https://media.discordapp.net/attachments/1061640726267580486/1062440763759280169/image.png" alt="" title="PicFilename" />
     <figcaption class="caption caption-float"></figcaption>
 </figure>
 <strong><span style="color:red;">1. Sampleset</span></strong>
@@ -261,7 +283,8 @@
  <li>hitfinish</li>
  <li>hitwhistle</li>
 </ul>
-<p><strong><span style="color:green;">3. Samplesetnumber</span></strong></p>
+<p><strong><span style="color:green;">3. Sampleset number</span></strong><br />
+แน่นอนว่าจำนวน Addition Hitsound แค่นี้นั้นไม่พอแน่นอน ดังนั้นจึงมี Sampleset Number มาช่วย ระบบนี้เหมือนกับ<strong>การให้หมวดหมู่กับ hitsound หลายๆไฟล์ที่มาเกินปกติ</strong> ดังนั้นระบบนี้จะสามารถช่วยให้ความหลากหลายกับประสบการณ์ Hitsound ได้ถึงที่สุด</p>
 </div>
 
                                 
@@ -272,11 +295,11 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../programs/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../programs/mapping-tool/mapping-tool/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">โปรแกรม</span>
+                                                <span class="block mt-1">Mapping Tool</span>
                                             </span>
                                         </a>
                                     </div>
