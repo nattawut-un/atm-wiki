@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.726594623401">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.726719325958">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -21,21 +21,23 @@
     <meta property="og:url" content="/hitsound/hitsound-base/">
     <meta property="og:title" content="พื้นฐาน">
     <meta property="og:description" content="ในหัวข้อพื้นฐานนี้เราจะมาปูพื้นฐานกันก่อนว่า Hitsound นั้นทำอะไรได้บ้างและมีความสำคัญอย่างไร">
+    <meta property="og:image" content="/hitsound/sex/sex.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="/hitsound/hitsound-base/">
     <meta property="twitter:title" content="พื้นฐาน">
     <meta property="twitter:description" content="ในหัวข้อพื้นฐานนี้เราจะมาปูพื้นฐานกันก่อนว่า Hitsound นั้นทำอะไรได้บ้างและมีความสำคัญอย่างไร">
+    <meta property="twitter:image" content="/hitsound/sex/sex.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../static/favicon.png" rel="icon" />
-    <link href="../../resources/css/retype.css?v=2.4.0.726594623401" rel="stylesheet" />
+    <link href="../../resources/css/retype.css?v=2.4.0.726719325958" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.726594623401" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../resources/js/config.js?v=2.4.0.726719325958" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.726594623401" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../resources/js/lunr.js?v=2.4.0.726719325958" data-turbo-eval="false" defer></script>
 
     <meta property="og:type" content="website">
     <!-- <meta property="og:title" content="ATT // Another Thailand Tournament" /> -->
@@ -226,21 +228,41 @@
         <span>Hitsound คืออะไร?</span>
     </h2>
 </doc-anchor-target>
-<p>Hitsound คือส่วนประกอบของการ Mapping อย่างนึงที่มีความสำคัญในการสร้างมิติให้กับ Map นั้นๆ ซึ้งต่างกับการวางโน้ตที่จะส่งผลกับ Gameplay โดยตรง ซึ่งจริงๆบางครั้งอาจทำให้ส่งผลกับ Gameplay ได้เช่นกัน <em>(เนื้อหาส่วนนี้จะไปอยู่ในหัวข้อ ขั้นสูง)</em> และการมี Hitsound นั้นจำเป็นต่อการ Rank แมพด้วยเช่นกัน</p>
+<p>Hitsound คือส่วนประกอบของการ Mapping อย่างนึงที่มีความสำคัญในการสร้างมิติให้กับ Map นั้นๆ ซึ้งต่างกับการวางโน้ตที่จะส่งผลกับ Gameplay โดยตรง ซึ่งจริงๆบางครั้งอาจทำให้ส่งผลกับ Gameplay ได้เช่นกัน <em>(เนื้อหาส่วนนี้จะไปอยู่ในหัวข้อ <a href="../hitsound-advanced/">ขั้นสูง</a>)</em> และการมี Hitsound นั้นจำเป็นต่อการ Rank แมพด้วยเช่นกัน</p>
 <doc-anchor-target id="สวนประกอบของ-hitsound">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#สวนประกอบของ-hitsound">#</doc-anchor-trigger>
         <span>ส่วนประกอบของ Hitsound</span>
     </h2>
 </doc-anchor-target>
-<p>การทำ Hitsound นั้นมีหลายอย่างที่ต้องทำความเข้าใจ แต่ผมจะแยกเป็นนอก <em>นอกเกม</em> และ <em>ในเกม</em> แล้วกัน *คิดไม่ออก</p>
-<doc-anchor-target id="นอกเกม">
-    <h4>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#นอกเกม">#</doc-anchor-trigger>
-        <span>นอกเกม</span>
-    </h4>
+<p>การทำ Hitsound นั้นมีหลายอย่างที่ต้องทำความเข้าใจ Sampleset, addition, Filenamed, Volume แต่ละอย่างจะมีแต่ละส่วนที่ต้องเข้าใจดังนี้</p>
+<doc-anchor-target id="filenamed">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#filenamed">#</doc-anchor-trigger>
+        <span>Filenamed</span>
+    </h3>
 </doc-anchor-target>
-<p>ส่วนใหญ่จะเป็นวิธีการตั้งชื่อไฟล์เพื่อนำไปใช้ในเกมเสียมากกว่า</p>
+<p>การตั้งชื่อไฟล์หรือ <doc-anchor-trigger to="#Sample">Sample</doc-anchor-trigger> นั้นส่วนใหญ่จะเป็นวิธีการตั้งชื่อไฟล์จากนอกเกมเพื่อนำไปใช้ในเกมเสียมากกว่า แต่ละเสียงจะมีหมวดหมู่ที่<em>ค้อนข่าง</em>ตายตัวอยู่(จะไปพูดเนื้อหาส่วนนี้อีกในส่วน <a href="../hitsound-basic/">เบื้องต้น</a>) รูปแบบการตั้งชื่อนั้นก็เป็นการตั้งชื่อไฟล์ในรูปแบบที่ตายตัวด้วยเช่นกัน (ในที่นี้จะหมายถึงการคั้งชื่อไฟล์เผื่อนำไปใช้ในโหมด Standard เท่านั้น) จะมีรูปแบบดังนี้</p>
+<div><p><figure class="content-right">
+    <img src="../sex/sex.png" alt="" title="sex" />
+    <figcaption class="caption caption-float"></figcaption>
+</figure>
+<strong><span style="color:red;">1. Sampleset</span></strong>
+- จะเป็นส่วนแรกของชื่อไฟล์ที่จะบอกหมวดหมู่ของไฟล์เราว่าอยู่ส่วนไหนจะมีรูปแบบที่ตั้งได้ทั้งหมด 3 รูปแบบ<br />
+<ul></p>
+ <li>soft</li>
+ <li>normal<l/i>
+ <li>drum</li>
+</ul>
+<p><strong><span style="color:blue;">2. Addition</span></strong> จะมีรูปแบบที่ตั้งได้ทั้งหมด 4 รูปแบบ<br />
+<ul></p>
+ <li>hitclap</li>
+ <li>hitnormal<l/i>
+ <li>hitfinish</li>
+ <li>hitwhistle</li>
+</ul>
+<p><strong><span style="color:green;">3. Samplesetnumber</span></strong></p>
+</div>
 
                                 
                                 <!-- Required only on API pages -->
