@@ -30,9 +30,22 @@ Mapping Tools เป็นโปรแกรมที่ทำโดย [OilBomb
 
 :::
 ### Sliderator
-![](https://media.discordapp.net/attachments/1062728370149916742/1063833556444532767/image.png?width=600&height=500 "rim")
+![](https://media.discordapp.net/attachments/1062728370149916742/1064205618690412674/image.png?width=1130&height=701 "rim")
 
-เป็นเครื่องมือ ... ใช้เองเลย ดีจริง
+เป็นเครื่องมือที่จะสามารถทำให้ Slider ของเรามีความเร็วที่หลากหลายภายในตัวเดียว ซึ้งตรงข้ามกับ slider แบบทัวไปที่มีความเร็วของ slider เท่ากันตลอดของทั้งตัวมัน. ความเร็วของ Slider นั้น ด้วยประสบการณ์ของ Mapper และการลองผิดลองถูก จะสามารถสร้างสรรค์ Slider ได้อย่างเป็น เอกลักษณ์เลย.
+ตัวอย่างของ **Sliderator** นั้นส่วนใหญ่จะใช้กันในพวกเพลง Electronic ต่างๆ เช่น
+
+![Aoi - King Atlantis mapped by ScubDomino](https://media.discordapp.net/attachments/1062728370149916742/1064213847570923550/image.png?width=300&height=300 "Sliderrator1")-
+
+![False Noise - Hyperlight mapped by ScubDomino](https://media.discordapp.net/attachments/1062728370149916742/1064217283163078687/image.png?width=350&height=400)
+
+
+
+![Billain & Vorso - Transhumanist mapped by hifu](https://media.discordapp.net/attachments/1062728370149916742/1064216243223134288/image.png?width=600&height=300 "Sliderrator3")
+
+#### วิธีการใช้
+![Sliderator](https://media.discordapp.net/attachments/1062728370149916742/1064221522786529391/image.png?width=806&height=701)
 :::
+
 
 [เอาไปทดลองฟัง](https://prophet-launchpad.netlify.app/)
