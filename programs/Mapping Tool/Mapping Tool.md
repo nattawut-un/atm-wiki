@@ -5,6 +5,7 @@ order: 4
 ---
 
 # Mapping Tools
+![](https://media.discordapp.net/attachments/1061635824665514004/1064423181781303346/image.png?width=1241&height=701)
 
 (เชียน by โดยเขียนโดย written by by [Nagabi](https://osu.ppy.sh/users/10352099))
 
@@ -30,9 +31,62 @@ Mapping Tools เป็นโปรแกรมที่ทำโดย [OilBomb
 
 :::
 ### Sliderator
-![](https://media.discordapp.net/attachments/1062728370149916742/1063833556444532767/image.png?width=600&height=500 "rim")
+![](https://media.discordapp.net/attachments/1062728370149916742/1064205618690412674/image.png?width=1130&height=701 "rim")
 
-เป็นเครื่องมือ ... ใช้เองเลย ดีจริง
+เป็นเครื่องมือที่จะสามารถทำให้ Slider ของเรามีความเร็วที่หลากหลายภายในตัวเดียว ซึ้งตรงข้ามกับ slider แบบทัวไปที่มีความเร็วของ slider เท่ากันตลอดของทั้งตัวมัน. ความเร็วของ Slider นั้น ด้วยประสบการณ์ของ Mapper และการลองผิดลองถูก จะสามารถสร้างสรรค์ Slider ได้อย่างเป็น เอกลักษณ์เลย.
+ตัวอย่างของ **Sliderator** นั้นส่วนใหญ่จะใช้กันในพวกเพลง Electronic ต่างๆ เช่น
+
+![Aoi - King Atlantis mapped by ScubDomino](https://media.discordapp.net/attachments/1062728370149916742/1064213847570923550/image.png?width=300&height=300 "Sliderrator1")-
+
+![False Noise - Hyperlight mapped by ScubDomino](https://media.discordapp.net/attachments/1062728370149916742/1064217283163078687/image.png?width=350&height=400)
+
+
+
+![Billain & Vorso - Transhumanist mapped by hifu](https://media.discordapp.net/attachments/1062728370149916742/1064216243223134288/image.png?width=600&height=300 "Sliderrator3")
+
+#### วิธีการใช้
+![Sliderator](https://media.discordapp.net/attachments/1062728370149916742/1064576805236904117/image.png?width=700&height=600)
+
+จากภาพ  
+ **แกน X** แสดงถึงความยาวของ Slider ที่แสดงใน Timeline (หรือในเกม เช่น 1/2 3/4 etc. etc.),  
+ **แกน Y** ในกราฟนี้ คือ ความเร็วของ slider ball ในตัว slider body เลขข้างๆช่างแม่มัน มันยาก
+
+
+เริ่มแรกเลย, เราสามารถคลิกขวาตรงเส้นกราฟ เพื่อสร้าง anchor (ในการทำ [Slider](/basics/sliders.md) จุดแดงๆเรียกว่า anchor ในที่นี้จึงนำเปรียบเทียบจุดหักของเส้นกราฟ)ขึ้นในกราฟ (จุดสีฟ้า).
+
+จุดสีฟ้า จะเป็นจุดที่สามรถส่งผลต่อความเร็วของ [Slider Ball]() ได้. ซึ้งสามารถปรับได้ดังนี้:  
+- **ถ้ากราฟสูงขึ้น**, ความเร็วจะเพิ่มขึ้น
+- **ถ้ากราฟต่ำลง**, ความเร็วจะลดลง
+
+และถ้าหากอยากนำจุด anchor ออก, ให้คลิกขวาที่จุด velocity curves อีกครั้ง  
+
+และหากสังเกตเห็น จะมีจุดที่เล็กกว่าปกติ, จุดนั้นจะทำให้ปรับความเร็วของ Slider แบบโค้งได้ *(velocity curves)*. ซึ้งสามารถปรับได้ดังนี้:   
+- **ถ้ากราฟนูนขึ้น**, ความเร็วจะเพิ่มขึ้น
+- **ถ้ากราฟแบนลง**, ความเร็วจะลดลง  
+
+ ถ้าหากเราต้องการ velocity curves ในรูปแบบอื่น เราสามารถคลิกขวาที่จุด anchor point และเราจะเห็น curves ในรูปแบบต่างๆดังภาพ:  
+
+
+  ![](https://media.discordapp.net/attachments/1062728370149916742/1064591197273862294/image.png?width=300&height=500 "menu")
+
+  แต่จริงๆแล้ว curve แบบค่าเริ่มต้น เอาจริงๆก็สามารถใช้ได้ทุกแมพแล้วแต่ก็สามารถทดลองรูปแบบอื่นได้เหมือนกัน, ไอตัวที่ดูจะเป็นไปไม่ได้ที่จะใช้เลยคือ **"Wave"**. มันเหมือนเป็น feature ที่มีใว้แค่ให้รู้ว่ามีเฉยๆ แล้วแม่งฮามากเวลาดู. 
+
+  !!!danger คำเตือน
+   อย่างไรก็ตาม หาก Sliderator กินทรัพยากรของเครื่องมากเกินไป. คุณอาจจะจำเป็นต้องลดจุดของ Sliderator เนื่องจากมันอาจจะเยอะเกืนความจำเป็นนั้นเอง
+  !!!
+
+
+
+
+
+
+
+
+
+
+
+
 :::
+
 
 [เอาไปทดลองฟัง](https://prophet-launchpad.netlify.app/)
