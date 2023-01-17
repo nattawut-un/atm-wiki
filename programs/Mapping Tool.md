@@ -1,6 +1,6 @@
 ---
 label: Mapping Tool
-icon: arrow-right
+icon: tools
 order: 4
 ---
 
