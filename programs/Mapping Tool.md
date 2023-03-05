@@ -90,8 +90,9 @@ Mapping Tools เป็นโปรแกรมที่ทำโดย [OilBomb
   ผมจะไม่สอนวิธีใช้เพราะมันโคตรจะไม่จำเป็น
   **SHIT POST**
   !!!danger คำเตือน
-  ![](https://i.pximg.net/img-original/img/2023/02/20/15/23/03/105551775_p0.png)
+  ![](https://media.discordapp.net/attachments/1062728370149916742/1081236481458315384/they-found-my-bokita-folder-v0-li6cfw98r7ka1.png?width=597&height=701)
   !!!
+  
   
 
 
