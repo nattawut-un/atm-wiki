@@ -75,6 +75,25 @@ Mapping Tools เป็นโปรแกรมที่ทำโดย [OilBomb
    อย่างไรก็ตาม หาก Sliderator กินทรัพยากรของเครื่องมากเกินไป. คุณอาจจะจำเป็นต้องลดจุดของ Sliderator เนื่องจากมันอาจจะเยอะเกืนความจำเป็นนั้นเอง
   !!!
 
+  ### Pattern gallery
+  ![](https://media.discordapp.net/attachments/1062728370149916742/1081220428627988661/image.png?width=1211&height=547)
+
+  Pattern gallery สำหรับผมไม่ค่อยได้ใช้เท่าไหร่เนื่องจากผมค่อนข้างไม่ค่อยอยากใช้ Pattern เดิมๆ เพราะส่วนตัวผมตอนนี้ก็ยังหา Style ใหม่ๆอยู่เรี่อยๆ แต่สำหรับใครที่มี Style ที่ชอบ pattern ที่เคยใว้อยู่แล้วเครื่องมือนี้ก็จะช่วยประหยัดเวลาได้มากโขเลย
+
+  ### Hitsound Preview Helper
+  ![](https://media.discordapp.net/attachments/1062728370149916742/1081223123522826321/image.png?width=913&height=701)
+
+  สำหรับใครที่อยากเพิ่มระดับการทำ [Hitsound](/hitsound/hitsound-basic.md) เครื่องมือนี้จะเป็นใบเบิกทางสู่นรกที่ลึกกว่าที่เคย สำหรับผมที่ใช้บ่อยเอามากๆ เพราะผมทำ Hitsound มากกว่าทำแมพซะอีก. ถ้าใครเคยเห็น Hitsound ที่มีหลายๆ Layer อย่าง Hitsounder ดังๆเช่น [Midorijeon](https://osu.ppy.sh/users/10969875) , [Nagaraia](https://osu.ppy.sh/users/13673790) และพวก Keysound ก็สามารถทำในนี้ก็ได้นะแต่ก็มีวิธีที่ดีกว่าแหละ 
+
+  ### Slider Picturator
+  ![](https://media.discordapp.net/attachments/1062728370149916742/1081235565439090769/image.png?width=1246&height=701)
+  ผมจะไม่สอนวิธีใช้เพราะมันโคตรจะไม่จำเป็น
+  **SHIT POST**
+  !!!danger คำเตือน
+  ![](https://i.pximg.net/img-original/img/2023/02/20/15/23/03/105551775_p0.png)
+  !!!
+  
+
 
 
 
